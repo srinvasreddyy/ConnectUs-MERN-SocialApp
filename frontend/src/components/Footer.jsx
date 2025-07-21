@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => (
-  <footer className="w-full mx-auto py-4 fixed bottom-0 text-center text-m text-base-content opacity-50 border-t bg-base-100 mt-auto">
+  <footer className="w-full mx-auto py-4 relative bottom-0 text-center text-m text-base-content opacity-70 border-t bg-base-100 mt-auto">
     <span>
       &quot;Made with <span className="text-red-500">❤️</span> by the ConnectUs Team&quot;
     </span>

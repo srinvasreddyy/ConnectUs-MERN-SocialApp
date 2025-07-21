@@ -126,10 +126,6 @@ function App() {
         isAuthenticated && isOnboarded && pathname !== "/chat/:id"&& pathname !== "/call/:id"&& pathname !== "/chat/:id" &&
         pathname !== "/notifications" && <ChatbotWidget/>
       }
-      {
-        isAuthenticated && isOnboarded && pathname !== "/chat/:id"&& pathname !== "/call/:id"&& pathname !== "/chat/:id" &&
-        pathname !== "/notifications" &&  <Footer/>
-      }
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { useMutation } from '@tanstack/react-query'
 import { Link } from 'react-router'
 import { UsersIcon, UserPlusIcon ,CheckCircleIcon,MapPinIcon  } from 'lucide-react'
 import FriendCard from '../components/FriendCard.jsx'
-
+import Footer from '../components/Footer.jsx'
 const Home = () => {
 
   const queryClient = useQueryClient()
@@ -173,6 +173,7 @@ const Home = () => {
           )}
         </section>
       </div>
+      <Footer/>
     </div>
   )
 }
