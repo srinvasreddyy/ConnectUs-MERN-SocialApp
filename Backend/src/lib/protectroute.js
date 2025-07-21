@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
-import { ApiError } from "../lib/api.error.js";
+import { ApiError } from "./api.error.js";
 
 
 export const protectRoute = async (req, res, next) =>{
